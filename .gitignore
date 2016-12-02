@@ -1,0 +1,15 @@
+﻿################################################################################
+# 此 .gitignore 文件已由 Microsoft(R) Visual Studio 自动创建。
+################################################################################
+
+/MyFutureInfrastructure/.vs/MyFutureInfrastructure/v14/.suo
+/MyFutureInfrastructure/.vs/config/applicationhost.config
+/MyFutureInfrastructure/.vs/restore.dg
+/MyFutureInfrastructure/Src/HQY.Future.Infrastructure/bin/Debug/netstandard1.6
+/MyFutureInfrastructure/Src/HQY.Future.Infrastructure/obj/Debug/netstandard1.6
+/MyFutureInfrastructure/Src/HQY.Future.Infrastructure/HQY.Future.Infrastructure.xproj.user
+/MyFutureInfrastructure/Src/HQY.Future.Infrastructure/project.lock.json
+/MyFutureInfrastructure/UnitTest/HQY.Future.Infrastructure.Test/bin/Debug/netcoreapp1.0
+/MyFutureInfrastructure/UnitTest/HQY.Future.Infrastructure.Test/obj/Debug/netcoreapp1.0
+/MyFutureInfrastructure/UnitTest/HQY.Future.Infrastructure.Test/HQY.Future.Infrastructure.Test.xproj.user
+/MyFutureInfrastructure/UnitTest/HQY.Future.Infrastructure.Test/project.lock.json

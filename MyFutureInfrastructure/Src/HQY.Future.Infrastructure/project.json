@@ -1,0 +1,36 @@
+﻿{
+    "version": "0.1.0-beta-*",
+    "title": "HQY.Future.Infrastructure",
+    "description": "华奇英工作室未来系统—基础设施",
+    "authors": [ "HQYWORK" ],
+    "copyright": "Copyright © HQYWORK",
+    "packOptions": {
+        "owners": [ "ZHANGQ" ],
+        "tags": [ "Future System", "OGU", "Infrastructure", "DDD" ],
+        "projectUrl": "http://hqy-tms:8080/tfs/MyFutureSystemCollection/MyFutureSystem.Home/_git/Infrastructure",
+        "repository": {
+            "type": "git",
+            "url": "http://hqy-tms:8080/tfs/MyFutureSystemCollection/MyFutureSystem.Home/_git/Infrastructure"
+        }
+    },
+
+    "dependencies": {
+        "NETStandard.Library": "1.6.1",
+        "Microsoft.EntityFrameworkCore": "1.1.0"
+    },
+
+    "frameworks": {
+        "netstandard1.6": {
+        }
+    },
+
+    "buildOptions": {
+        "outputName": "HQY.Future.Infrastructure",
+        "keyFile": "../../.Globals/HQY.MyFuture.snk",
+        "compile": [
+            "../../.Globals/*.cs"
+        ],
+        "xmlDoc": true
+    }
+
+}
