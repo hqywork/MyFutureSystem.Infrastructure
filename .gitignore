@@ -13,3 +13,11 @@
 /MyFutureInfrastructure/UnitTest/HQY.Future.Infrastructure.Test/obj/Debug/netcoreapp1.0
 /MyFutureInfrastructure/UnitTest/HQY.Future.Infrastructure.Test/HQY.Future.Infrastructure.Test.xproj.user
 /MyFutureInfrastructure/UnitTest/HQY.Future.Infrastructure.Test/project.lock.json
+/MyFutureInfrastructure/Src/HQY.Common/bin/Debug/netstandard1.6
+/MyFutureInfrastructure/Src/HQY.Common/obj/Debug/netstandard1.6
+/MyFutureInfrastructure/Src/HQY.Common/HQY.Common.xproj.user
+/MyFutureInfrastructure/Src/HQY.Common/project.lock.json
+/MyFutureInfrastructure/UnitTest/HQY.Common.Test/bin/Debug/netcoreapp1.0
+/MyFutureInfrastructure/UnitTest/HQY.Common.Test/obj/Debug/netcoreapp1.0
+/MyFutureInfrastructure/UnitTest/HQY.Common.Test/HQY.Common.Test.xproj.user
+/MyFutureInfrastructure/UnitTest/HQY.Common.Test/project.lock.json
