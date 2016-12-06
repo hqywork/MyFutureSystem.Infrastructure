@@ -1,0 +1,43 @@
+﻿{
+    "version": "0.1.0-beta-*",
+    "title": "HQY.Future.Infrastructure.EfCore",
+    "description": "华奇英工作室未来系统—基于 EntityFrameworkCore 的基础设施",
+    "authors": [ "HQYWORK" ],
+    "copyright": "Copyright © HQYWORK",
+    "packOptions": {
+        "owners": [ "ZHANGQ" ],
+        "tags": [ "Future System", "OGU", "Infrastructure", "DDD" ],
+        "projectUrl": "http://hqy-tms:8080/tfs/MyFutureSystemCollection/MyFutureSystem.Home/_git/Infrastructure",
+        "repository": {
+            "type": "git",
+            "url": "http://hqy-tms:8080/tfs/MyFutureSystemCollection/MyFutureSystem.Home/_git/Infrastructure"
+        }
+    },
+
+    "dependencies": {
+        "NETStandard.Library": "1.6.1",
+        "Microsoft.EntityFrameworkCore": "1.1.0",
+        "Microsoft.EntityFrameworkCore.Relational": "1.1.0",
+        "HQY.Common": {
+            "target": "project"
+        },
+        "HQY.Future.Infrastructure": {
+            "target": "project"
+        }
+    },
+
+    "frameworks": {
+        "netstandard1.6": {
+        }
+    },
+
+    "buildOptions": {
+        "outputName": "HQY.Future.Infrastructure.EfCore",
+        "keyFile": "../../.Globals/HQY.MyFuture.snk",
+        "compile": [
+            "../../.Globals/*.cs"
+        ],
+        "xmlDoc": true,
+        "nowarn": ["CS3001"]
+    }
+}

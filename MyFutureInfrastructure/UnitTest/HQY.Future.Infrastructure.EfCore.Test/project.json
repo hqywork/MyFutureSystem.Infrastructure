@@ -1,0 +1,32 @@
+﻿{
+    "version": "0.1.0-beta-*",
+    "description": "华奇英工作室未来系统—基础设施单元测试",
+    "authors": [ "HQYWORK" ],
+
+    "dependencies": {
+        "Microsoft.NETCore.App": {
+            "type": "platform",
+            "version": "1.1.0"
+        },
+        "Microsoft.EntityFrameworkCore.InMemory": "1.1.0",
+        "xunit": "2.2.0-beta4-build3444",
+        "dotnet-test-xunit": "2.2.0-preview2-build1029",
+        "HQY.Future.Infrastructure.EfCore": {
+            "target": "project"
+        }
+    },
+
+    "frameworks": {
+        "netcoreapp1.0": {
+        }
+    },
+
+    "testRunner": "xunit",
+
+    "buildOptions": {
+        "keyFile": "../../.Globals/HQY.MyFuture.snk",
+        "compile": [
+            "../../.Globals/*.cs"
+        ]
+    }
+}
