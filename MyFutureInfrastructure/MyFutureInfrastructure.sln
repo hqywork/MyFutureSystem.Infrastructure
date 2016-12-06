@@ -24,6 +24,10 @@ Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "HQY.Future.Infrastructure",
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "HQY.Future.Infrastructure.Test", "UnitTest\HQY.Future.Infrastructure.Test\HQY.Future.Infrastructure.Test.xproj", "{AFC5212D-1059-4017-A022-74A403885E78}"
 EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "HQY.Common", "Src\HQY.Common\HQY.Common.xproj", "{7049D0EF-43A3-4416-AB10-926521EB4BA3}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "HQY.Common.Test", "UnitTest\HQY.Common.Test\HQY.Common.Test.xproj", "{9B52EB22-C36C-4C53-BA9A-22346C1B1ABB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -38,6 +42,14 @@ Global
 		{AFC5212D-1059-4017-A022-74A403885E78}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AFC5212D-1059-4017-A022-74A403885E78}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AFC5212D-1059-4017-A022-74A403885E78}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7049D0EF-43A3-4416-AB10-926521EB4BA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7049D0EF-43A3-4416-AB10-926521EB4BA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7049D0EF-43A3-4416-AB10-926521EB4BA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7049D0EF-43A3-4416-AB10-926521EB4BA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B52EB22-C36C-4C53-BA9A-22346C1B1ABB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B52EB22-C36C-4C53-BA9A-22346C1B1ABB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B52EB22-C36C-4C53-BA9A-22346C1B1ABB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B52EB22-C36C-4C53-BA9A-22346C1B1ABB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -45,5 +57,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{EBB5D93D-0213-456E-82AF-CB883501D2CC} = {8749BF28-6F5B-4CB7-8930-790FDD6B92E8}
 		{AFC5212D-1059-4017-A022-74A403885E78} = {01CF7B3B-B86F-4F36-9E62-CFAF9CB07C52}
+		{7049D0EF-43A3-4416-AB10-926521EB4BA3} = {8749BF28-6F5B-4CB7-8930-790FDD6B92E8}
+		{9B52EB22-C36C-4C53-BA9A-22346C1B1ABB} = {01CF7B3B-B86F-4F36-9E62-CFAF9CB07C52}
 	EndGlobalSection
 EndGlobal

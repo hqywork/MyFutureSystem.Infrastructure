@@ -1,0 +1,34 @@
+﻿{
+    "version": "0.1.0-beta-*",
+    "title": "HQY.Common",
+    "description": "华奇英工作室—通用公共功能",
+    "authors": [ "HQYWORK" ],
+    "copyright": "Copyright © HQYWORK",
+    "packOptions": {
+        "owners": [ "ZHANGQ" ],
+        "tags": [ "Common" ],
+        "projectUrl": "http://hqy-tms:8080/tfs/MyFutureSystemCollection/MyFutureSystem.Home/_git/Infrastructure",
+        "repository": {
+            "type": "git",
+            "url": "http://hqy-tms:8080/tfs/MyFutureSystemCollection/MyFutureSystem.Home/_git/Infrastructure"
+        }
+    },
+
+    "dependencies": {
+        "NETStandard.Library": "1.6.1"
+    },
+
+    "frameworks": {
+        "netstandard1.6": {
+        }
+    },
+
+    "buildOptions": {
+        "outputName": "HQY.Common",
+        "keyFile": "../../.Globals/HQY.MyFuture.snk",
+        "compile": [
+            "../../.Globals/*.cs"
+        ],
+        "xmlDoc": true
+    }
+}

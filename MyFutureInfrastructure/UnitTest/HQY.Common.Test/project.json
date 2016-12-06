@@ -1,0 +1,32 @@
+﻿{
+    "version": "0.1.0-beta-*",
+    "description": "华奇英工作室—通用公共功能单元测试",
+    "authors": [ "HQYWORK" ],
+
+    "dependencies": {
+        "Microsoft.NETCore.App": {
+            "type": "platform",
+            "version": "1.1.0"
+        },
+        "xunit": "2.2.0-beta4-build3444",
+        "dotnet-test-xunit": "2.2.0-preview2-build1029",
+        "HQY.Common": {
+            "target": "project"
+        }
+    },
+
+    "frameworks": {
+        "netcoreapp1.0": {
+        }
+    },
+
+    "testRunner": "xunit",
+
+    "buildOptions": {
+        "keyFile": "../../.Globals/HQY.MyFuture.snk",
+        "compile": [
+            "../../.Globals/*.cs"
+        ],
+        "nowarn": ["CS3016"]
+    }
+}
