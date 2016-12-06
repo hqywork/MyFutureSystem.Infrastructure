@@ -6,7 +6,7 @@
     "copyright": "Copyright © HQYWORK",
     "packOptions": {
         "owners": [ "ZHANGQ" ],
-        "tags": [ "Future System", "OGU", "Infrastructure", "DDD" ],
+        "tags": [ "Future System", "Infrastructure", "DDD" ],
         "projectUrl": "http://hqy-tms:8080/tfs/MyFutureSystemCollection/MyFutureSystem.Home/_git/Infrastructure",
         "repository": {
             "type": "git",
@@ -15,8 +15,7 @@
     },
 
     "dependencies": {
-        "NETStandard.Library": "1.6.1",
-        "Microsoft.EntityFrameworkCore": "1.1.0"
+        "NETStandard.Library": "1.6.1"
     },
 
     "frameworks": {
