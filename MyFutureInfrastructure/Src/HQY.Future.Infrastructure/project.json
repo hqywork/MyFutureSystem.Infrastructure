@@ -15,7 +15,10 @@
     },
 
     "dependencies": {
-        "NETStandard.Library": "1.6.1"
+        "NETStandard.Library": "1.6.1",
+        "HQY.Common": {
+            "target": "project"
+        }
     },
 
     "frameworks": {

@@ -27,6 +27,7 @@
         "keyFile": "../../.Globals/HQY.MyFuture.snk",
         "compile": [
             "../../.Globals/*.cs"
-        ]
+        ],
+        "copyToOutput": "xunit.runner.json"
     }
 }
